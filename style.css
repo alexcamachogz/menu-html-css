@@ -25,3 +25,24 @@ body {
 .nav__checkbox {
   display: none;
 }
+
+.nav__toggle {
+  position: absolute;
+  cursor: pointer;
+  margin: 0 1rem;
+  right: 0;
+}
+
+.nav__toggle svg {
+  width: 1rem;
+  fill: var(--white);
+}
+
+.nav__toggle .close {
+  display: none;
+}
+
+.nav__toggle .close,
+.nav__toggle .menu {
+  margin-top: 0.3rem;
+}
