@@ -15,7 +15,6 @@ body {
   color: var(--white);
   font-family: sans-serif;
   font-weight: lighter;
-  height: 100vh;
 }
 
 .nav {
@@ -77,6 +76,22 @@ body {
 
 .menu__logo img {
   height: 100%;
+}
+
+.content {
+  height: 85vh;
+}
+
+.footer {
+  border-top: 1px solid var(--gray);
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  color: var(--white);
 }
 
 #nav__checkbox:checked ~ ul.nav__menu li {
