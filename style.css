@@ -5,16 +5,16 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
+  background-color: var(--primary);
+  color: var(--white);
   font-family: sans-serif;
   font-weight: lighter;
-  color: var(--white);
-  background-color: var(--primary);
   height: 100vh;
 }
 
@@ -27,15 +27,15 @@ body {
 }
 
 .nav__toggle {
-  position: absolute;
   cursor: pointer;
   margin: 0 1rem;
+  position: absolute;
   right: 0;
 }
 
 .nav__toggle svg {
-  width: 1rem;
   fill: var(--white);
+  width: 1rem;
 }
 
 .nav__toggle .close {
@@ -48,27 +48,27 @@ body {
 }
 
 .nav__menu {
+  align-items: center;
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  align-items: center;
   margin: 1rem;
 }
 
 .nav__menu li {
-  list-style-type: none;
   display: none;
+  list-style-type: none;
 }
 
 .nav__menu li:first-child {
-  margin-right: auto;
   display: block;
+  margin-right: auto;
 }
 
 .nav__menu a {
-  text-decoration: none;
   color: inherit;
   font-size: 1.1rem;
+  text-decoration: none;
 }
 
 .menu__logo {
